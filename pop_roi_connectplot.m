@@ -345,7 +345,7 @@ function [matrix, com] = pop_roi_connectplot(EEG, varargin)
     % -----------------------
     g = finputcheck(options,  { 'measure'    'string'  {splot.acronym}  '';
         'freqrange'             'real'     { }                     [];
-        'smooth'                'real'     { }                     0.35;
+        'smooth'                'real'     { }                     0.1;
         'plotcortex'            'string'   { 'on' 'off' }          'on';
         'plotcortexparams'      'cell'     { }                     {};
         'plotcortexseedregion'  'integer'  { }                     [];
